@@ -1,0 +1,9 @@
+{
+  "name": "ratlab",
+  "version": "0.1.0",
+  "description": "On-demand game development and visual QA workflows, with optional local browser checks.",
+  "author": {
+    "name": "Ratwaredev",
+    "url": "https://github.com/Ratwaredev"
+  }
+}

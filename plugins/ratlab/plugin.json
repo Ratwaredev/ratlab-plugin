@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ratlab",
+  "version": "0.1.0",
+  "description": "On-demand game development and visual QA workflows, with optional local browser checks.",
+  "author": {
+    "name": "Ratwaredev",
+    "url": "https://github.com/Ratwaredev"
+  },
+  "repository": "https://github.com/Ratwaredev/ratlab-plugin",
+  "license": "MIT",
+  "keywords": ["game-development", "animation", "visual-qa"],
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "RatLab",
+        "shortDescription": "Game development workflows",
+        "longDescription": "On-demand guidance for game creation, procedural animation, VFX, world-building, and visual QA. Your host agent keeps its native tools, model choice, permissions, and subagents. Includes an optional local browser script for screenshots and frame cadence checks; no server or external model calls.",
+        "developerName": "Ratwaredev",
+        "category": "Developer Tools",
+        "capabilities": ["Game development", "Visual QA"],
+        "logo": "./assets/ratlab-icon.png",
+        "composerIcon": "./assets/ratlab-icon.png",
+        "brandColor": "#15374C",
+        "defaultPrompt": ["Help me build and visually verify a small playable game."]
+      }
+    }
+  }
+}
